@@ -1,0 +1,44 @@
+#container {
+    grid: min-content auto/ 1fr 1fr 1fr;
+}
+nav {
+    display: grid;
+    align-content: start;
+    grid-row: 1/2;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+}
+li:nth-child(1) {
+    grid-column: 2/3;
+}
+li {
+    justify-self: center;
+    align-self: center;
+}
+#intro {
+    display:grid;
+    justify-content: center;
+}
+#intro-phrase {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+#about-btn {
+    justify-self: center;
+    align-self: center;
+  }
+#random-fact {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+#skills {
+    display: grid;
+    grid: auto/1fr 1fr;
+}
+#projects-container {
+    display: grid;
+    grid: 1fr 1fr 1fr/repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+  }

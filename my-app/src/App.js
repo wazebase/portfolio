@@ -49,6 +49,7 @@ function App() {
   <li><img id="jquery"src="https://img.icons8.com/ios-filled/50/000000/jquery.png"/>JQuery</li>
   <li><i className="fab fa-python" style={{color:"orange"}}>Python</i></li>
    </ul>
+   <a id="resume-link"target="_blank" href="https://www.cakeresume.com/nikita-menkov"><button id="resume">Check my resume</button></a>
    </div>
   
  </article>

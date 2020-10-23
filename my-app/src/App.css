@@ -224,3 +224,25 @@ width: 100%;
 font-size: 18px;
 color: white;
 }
+
+#resume-link {
+  justify-self: center;
+  align-self: center;
+}
+#resume {
+  padding: 10px;
+  border:none;
+  outline: none;
+  text-shadow: 1px 1px black;
+  cursor: pointer;
+  font-family: 'Roboto Mono', monospace;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: red;
+  color: white;
+  transition: 1s all ease-out;
+}
+#resume:hover {
+  background-color: orange;
+}

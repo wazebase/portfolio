@@ -1,6 +1,5 @@
 import React,{useEffect, useState} from 'react';
 import './App.css';
-import './newgrid.css';
 import './grid.css';
 import {useSpring,animated, config} from "react-spring";
 import VisibilitySensor from "react-visibility-sensor";

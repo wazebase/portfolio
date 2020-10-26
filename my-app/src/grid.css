@@ -146,6 +146,9 @@ section {
   #intro {
       padding:5px;
   }
+  #contact p {
+    font-size: 14px;
+}
   #intro-phrase {
       font-size: 18px;
   }  

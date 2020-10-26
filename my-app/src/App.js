@@ -1,5 +1,6 @@
 import React,{useEffect, useState} from 'react';
 import './App.css';
+import './newgrid.css';
 import './grid.css';
 import {useSpring,animated, config} from "react-spring";
 import VisibilitySensor from "react-visibility-sensor";
@@ -16,8 +17,8 @@ function App() {
      </nav>
      <section id="intro" className="background-img">
       <div id="intro-phrase"><p>Hey, I'm Nikita and I just love coding.</p>
-      <button id="about-btn"><a href="#projects">Look at my work</a></button>
       </div>
+      <button id="about-btn"><a href="#projects">Look at my work</a></button>
       <div id="links">
       <a target="_blank" href="https://www.linkedin.com/in/nikita-menkov-5b90481ba/"><i id="linkedin" className="fab fa-linkedin"></i></a>
      <a target="_blank" href="https://github.com/wazebase/"><i id="github" className="fab fa-github-square"></i></a>
@@ -38,7 +39,6 @@ function App() {
      
   <article id="skill-art">
    <h2>My skill set</h2>
-   <div id="skills">
      <ul id="skill-list">
   <li> <i className="fab fa-html5" style={{color:"orange"}}></i>HTML </li>
   <li> <i className="fab fa-css3-alt" style={{color:"blue"}}></i>CSS </li>
@@ -49,14 +49,17 @@ function App() {
   <li><img id="jquery"src="https://img.icons8.com/ios-filled/50/000000/jquery.png"/>JQuery</li>
   <li><i className="fab fa-python" style={{color:"orange"}}>Python</i></li>
    </ul>
-   <a id="resume-link"target="_blank" href="https://www.cakeresume.com/nikita-menkov"><button id="resume">Check my resume</button></a>
-   </div>
+  
   
  </article>
+ <div id="resume-container">
+ <a id="resume-link"target="_blank" href="https://www.cakeresume.com/nikita-menkov"><button id="resume">Check my resume</button></a>
+ </div>
      </section>
      <section id="projects">
+       <div id="projects-title">
        <h2>My Projects</h2>
-       <div id="projects-container">
+       </div>
        <Project src={"https://raw.githubusercontent.com/wazebase/project-images/main/chess.png"}
        web ={"https://codepen.io/wazebase/full/eYNPjpY"}name={"Landing Page"} 
        info={"One page design for imaginary chess company. Made with HTML and CSS."}/>
@@ -85,7 +88,7 @@ function App() {
         <Project web={"https://quote-app-rosy.vercel.app/"} info={"Made with React and Spring-animations. Randomly chooses and displays a quote and it's author."}
        src={"https://raw.githubusercontent.com/wazebase/project-images/main/quote.png"} name={"Random Quote App"} git={"https://github.com/wazebase/quote-app"}/>
 
-       </div>
+       
      </section>
      <section id="contact">
        <p>Write me: <span>nikita.menkov@gmail.com</span></p>

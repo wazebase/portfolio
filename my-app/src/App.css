@@ -109,8 +109,7 @@ width: 100%;
 #about {
   background-color: rgb(235, 235, 235);
   padding: 20px;
-  font-size: 20px;
-  margin-top: -20px;
+  font-size: 22x;
   border-radius: 0px 0px 20px 20px;
 }
 #me p {
@@ -126,12 +125,14 @@ width: 100%;
   font-weight: 550;
 }
 #me img {
- height: 12em;
- width: 12.5em;
- border-radius: 50%; 
+ height: 11em;
+ width: 11em;
+ border-radius: 50%;
+ shape-outside: circle(); 
 }
 #skill-list {
   font-family: 'Roboto Mono', monospace;
+  list-style-type: none;
   letter-spacing: .5px;
   font-size: 20px;
 }
@@ -225,10 +226,7 @@ font-size: 18px;
 color: white;
 }
 
-#resume-link {
-  justify-self: center;
-  align-self: center;
-}
+
 #resume {
   padding: 10px;
   border:none;

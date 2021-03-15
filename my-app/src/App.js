@@ -28,7 +28,7 @@ function App() {
      <section id="about">
        <article id="me">
        <h2>About me</h2>
-       <img src="https://scontent.ftll2-1.fna.fbcdn.net/v/t1.0-9/53216088_2124686140954317_8084639527940915200_n.jpg?_nc_cat=101&ccb=2&_nc_sid=09cbfe&_nc_ohc=uqWPqHTOnQsAX9iwa_v&_nc_ht=scontent.ftll2-1.fna&oh=48f3b1753c669beae926e7012ff23d8d&oe=5FB74207" />
+       <img src="https://scontent-prg1-1.xx.fbcdn.net/v/t1.0-9/53216088_2124686140954317_8084639527940915200_n.jpg?_nc_cat=101&ccb=1-3&_nc_sid=174925&_nc_ohc=wMQefQsJf14AX9jTXod&_nc_ht=scontent-prg1-1.xx&oh=c2fe895c24f0e19fe95ecccdb4c84aca&oe=60751A07" />
   
          <p>I like to create things: that is what has brought me to programming. As a developer, I'm always looking for the better and simplier solutions 
            for every problem I'm facing. I have an eye for making great design and I love to make interesting and interactive projects.

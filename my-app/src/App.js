@@ -28,7 +28,7 @@ function App() {
      <section id="about">
        <article id="me">
        <h2>About me</h2>
-       <img src="https://scontent-prg1-1.xx.fbcdn.net/v/t1.0-9/53216088_2124686140954317_8084639527940915200_n.jpg?_nc_cat=101&ccb=1-3&_nc_sid=174925&_nc_ohc=wMQefQsJf14AX9jTXod&_nc_ht=scontent-prg1-1.xx&oh=c2fe895c24f0e19fe95ecccdb4c84aca&oe=60751A07" />
+       <img src="https://raw.githubusercontent.com/wazebase/project-images/main/people/nikita.webp" />
   
          <p>I like to create things: that is what has brought me to programming. As a developer, I'm always looking for the better and simplier solutions 
            for every problem I'm facing. I have an eye for making great design and I love to make interesting and interactive projects.
@@ -39,14 +39,16 @@ function App() {
   <article id="skill-art">
    <h2>My skill set</h2>
      <ul id="skill-list">
-  <li> <i className="fab fa-html5" style={{color:"orange"}}></i>HTML </li>
-  <li> <i className="fab fa-css3-alt" style={{color:"blue"}}></i>CSS </li>
-  <li><i className="fab fa-js" style={{color:"red"}}></i>Javascript </li>
-  <li><i className="fab fa-react" style={{color:"lightblue"}}></i>React </li>
-  <li><img id="spring" src="https://camo.githubusercontent.com/b271ecbaca87f7700f877081eb1b83b4b8c2a223/68747470733a2f2f692e696d6775722e636f6d2f515a6f776e68672e706e67">
-    </img>Spring</li>
-  <li><img id="jquery"src="https://img.icons8.com/ios-filled/50/000000/jquery.png"/>JQuery</li>
-  <li><i className="fab fa-python" style={{color:"orange"}}>Python</i></li>
+  <li>HTML/CSS</li>
+  <li>Javascript</li>
+ <li>TypeScript</li>
+ <li>React</li>
+ <li>Node.js</li>
+ <li>Jest</li>
+ <li>Enzyme</li>
+ <li>REST API</li>
+ <li>Express</li>
+ <li>SEO</li>
    </ul>
   
   
@@ -59,33 +61,23 @@ function App() {
        <div id="projects-title">
        <h2>My Projects</h2>
        </div>
-       <Project src={"https://raw.githubusercontent.com/wazebase/project-images/main/chess.png"}
-       web ={"https://codepen.io/wazebase/full/eYNPjpY"}name={"Landing Page"} 
-       info={"One page design for imaginary chess company. Made with HTML and CSS."}/>
-       <Project web={"https://codepen.io/wazebase/full/oNXPpgJ"} name={"Survey Form"}
-       src={"https://raw.githubusercontent.com/wazebase/project-images/main/survey.png"}
-       info={"Can send actual emails. Made with HTML,CSS and JS."}/>
+
+       <Project web={"http://www.helmda-systems.com"} name={"HelmDA Systems"}
+       src={"https://raw.githubusercontent.com/wazebase/project-images/main/helmda.png"}
+       info={"Website made with React for the startup project HelMDA systems"}/>
        <Project web={"https://chat-application.wazebase.vercel.app/"} 
        src={"https://raw.githubusercontent.com/wazebase/project-images/main/chat-app.png"} 
        name={"Real-time Chat App"} git={"https://github.com/wazebase/chat-application"}
        info={"A project made following along JS Mastery course. Uses Socket.io,React and Node.js."}/>
-       <Project web={"https://javascript-calculator.wazebase.vercel.app/"} src={"https://raw.githubusercontent.com/wazebase/project-images/main/calculator.png"} 
-       name={"Javascript Calculator"} git={"https://github.com/wazebase/javascript-calculator"}
-       info={"Made with React. This calculator uses Formula/Expression Logic."}/>
+        <Project web={"https://piano-play-machine.wazebase.vercel.app/"} 
+       info={"Made using React, Tone.js and Spring-animations. Reads notes written in input as music and plays it. Also, it can show different piano scales."}src={"https://raw.githubusercontent.com/wazebase/project-images/main/piano.png"} name={"Piano Play Machine"} git={"https://github.com/wazebase/piano-play-machine"}/>
        <Project web={"https://pomodoro-clock.wazebase.vercel.app/"} 
        src={"https://raw.githubusercontent.com/wazebase/project-images/main/pomodoro.png"} 
        name={"Pomodoro Clock"} git={"https://github.com/wazebase/pomodoro-clock"}
        info={"25+5 Clock made with React. Uses accurateInterval that works more precicely than the regular one."}/>
-       <Project web={"https://markdown-reviewer.wazebase.vercel.app/"} 
-       src={"https://raw.githubusercontent.com/wazebase/project-images/main/reviewer.png"}
-        name={"Markdown Reviewer"}
-         git={"https://github.com/wazebase/markdown-reviewer"} info={"Made with React. The editor displays text written with Marked in preview as HTML."}/>
-       <Project web={"https://piano-play-machine.wazebase.vercel.app/"} 
-       info={"Made using React, Tone.js and Spring-animations. Reads notes written in input as music and plays it. Also, it can show different piano scales."}src={"https://raw.githubusercontent.com/wazebase/project-images/main/piano.png"} name={"Piano Play Machine"} git={"https://github.com/wazebase/piano-play-machine"}/>
-       <Project web={"https://drum-machine-app.vercel.app/"} info={"Playable drum machine made with React. You can click on pads or play with the keyboard."}
-       src={"https://raw.githubusercontent.com/wazebase/project-images/main/snip_20201022162150.png"} name={"Drum Machine"} git={"https://github.com/wazebase/drum-machine-app"}/>
-        <Project web={"https://quote-app-rosy.vercel.app/"} info={"Made with React and Spring-animations. Randomly chooses and displays a quote and it's author."}
-       src={"https://raw.githubusercontent.com/wazebase/project-images/main/quote.png"} name={"Random Quote App"} git={"https://github.com/wazebase/quote-app"}/>
+  
+       
+       
 
        
      </section>
@@ -113,7 +105,7 @@ return(
      {props.git===undefined? (<><a
       href={props.web}
       target="_blank"
-      ><button>View on Codepen</button></a></>): (<><div><a
+      ><button>See the website</button></a></>): (<><div><a
       href={props.web}
       target="_blank"
       ><button>See on web</button></a>

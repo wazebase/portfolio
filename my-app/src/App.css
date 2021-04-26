@@ -132,9 +132,8 @@ width: 100%;
 }
 #skill-list {
   font-family: 'Roboto Mono', monospace;
-  list-style-type: none;
   letter-spacing: .5px;
-  font-size: 20px;
+  font-size: 16px;
 }
 #skill-list i {
   font-size: 30px;

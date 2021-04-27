@@ -65,6 +65,10 @@ function App() {
        <Project web={"http://www.helmda-systems.com"} name={"HelmDA Systems"}
        src={"https://raw.githubusercontent.com/wazebase/project-images/main/helmda.png"}
        info={"Website made with React for the startup project HelMDA systems"}/>
+       <Project web={"https://spacex-cargo-planner.vercel.app/"} 
+       src={"https://raw.githubusercontent.com/wazebase/project-images/main/cargox-planner.png"} 
+       name={"SpaceX Cargo Planner"} git={"https://github.com/wazebase/spacex-cargo-planner"}
+       info={"Gets data about spaceX cargo and enables to change data. Saves data in Local Storage."}/>
        <Project web={"https://chat-application.wazebase.vercel.app/"} 
        src={"https://raw.githubusercontent.com/wazebase/project-images/main/chat-app.png"} 
        name={"Real-time Chat App"} git={"https://github.com/wazebase/chat-application"}

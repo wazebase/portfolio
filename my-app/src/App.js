@@ -62,7 +62,7 @@ function App() {
        <h2>My Projects</h2>
        </div>
 
-       <Project web={"http://www.helmda-systems.com"} name={"HelmDA Systems"}
+       <Project web={"https://www.helmda-systems.com"} name={"HelmDA Systems"}
        src={"https://raw.githubusercontent.com/wazebase/project-images/main/helmda.png"}
        info={"Website made with React for the startup project HelMDA systems"}/>
        <Project web={"https://spacex-cargo-planner.vercel.app/"} 
